@@ -1,0 +1,45 @@
+body{
+    background: orange;
+}
+
+div{
+    width: 900px;
+}
+
+#rosa{
+    position: relative;
+    background: black;
+    color: bisque;
+    top: 170px;
+    left: 200px;
+    width: 400px;
+    z-index: 1;
+}
+
+div:nth-child(2){
+    background: red;
+    color: white;
+    width: 900px;
+}
+
+li:nth-child(2){
+    background: #90ee90;
+    color: #000;
+    width: 900px;
+}
+
+:nth-child(3){
+    background: #90ee;
+    width: 900px;
+}
+
+:nth-child(4){
+    background: blue;
+    color: #fff;
+    width: 900px;
+}
+
+:nth-child(5){
+    background: yellow;
+    width: 900px;
+}
